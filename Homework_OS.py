@@ -15,7 +15,7 @@ class Transport:
         os.mkdir(path)
         for i in d:
             j = i.split('.')
-            if len(j) <= 2:
+            if len(j) >= 2:
                 if j[-1] == self.transport_what:
                     print(j)
                     j = '.'.join(j)
