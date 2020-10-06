@@ -1,8 +1,9 @@
+#не работает корректно, непонял как создавать разные версии
 import os
 import shutil
 
 
-# C:\Users\TenshiRin\Desktop
+# C:\Users\Legion\Desktop
 
 class User:
 
@@ -68,6 +69,6 @@ a.create()
 #     pass
 
 # a1 = input('input name : ')
-# a = os.listdir('C:\\Users\\TenshiRin\\Desktop')
-# b = 'C:\\Users\\TenshiRin\\Desktop\\' + a1
+# a = os.listdir('C:\\Users\\Legion\\Desktop')
+# b = 'C:\\Users\\Legion\\Desktop\\' + a1
 # os.mkdir(b)
